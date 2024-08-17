@@ -11,4 +11,6 @@
     <PackageReference Include="TepcoOutageSharp" Version="0.24.8.1713-beta-0530" />
   </ItemGroup>
 
+  <Import Project="..\TepcoOutageAreaChecker-shared\TepcoOutageAreaChecker-shared.projitems" Label="Shared" />
+
 </Project>
