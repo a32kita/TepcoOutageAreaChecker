@@ -15,5 +15,8 @@ namespace TepcoOutageAreaChecker
         public string? ErrorMessage { get; set; }
 
         public TepcoAreaOutageInfo? Result { get; set; }
+
+
+        public DateTimeOffset RetrievedAt { get; set; }
     }
 }

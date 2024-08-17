@@ -43,7 +43,8 @@
         "ChildAreaOutageInfos": []
       }
     ]
-  }
+  },
+  "RetrievedAt": "2024-08-17T18:53:58.7323864+09:00"
 }
 ```
 
