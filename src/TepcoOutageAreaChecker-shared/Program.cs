@@ -15,6 +15,7 @@ namespace TepcoOutageAreaChecker
             var asmFileName = Path.GetFileName(asmPath);
 
             var executionResult = new ExecutionResult();
+            executionResult.RetrievedAt = DateTimeOffset.Now;
 
             if (args.Length == 0)
             {
